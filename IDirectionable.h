@@ -1,4 +1,4 @@
-#ifndef IDIRECTIONALBE_H
+#ifndef IDIRECTIONABLE_H
 #define IDIRECTIONABLE_H
 
 class IDirectionable
