@@ -44,7 +44,7 @@ void Gallery::display_forward()
   }
   for(int i=0; i<_collection.size(); i++)
   {
-    std::cout<<i+1<<" of "<<_collection.size()+1<<" "
+    std::cout<<i+1<<" of "<<_collection.size()<<" "
              <<_collection[i].display<<" "
              <<_collection[i].description<<std::endl;
   }
@@ -64,7 +64,7 @@ void Gallery::display_backward()
   }
   for(int i=_collection.size()-1; i>=0; i--)
   {
-    std::cout<<i+1<<" of "<<_collection.size()
+    std::cout<<i+1<<" of "<<_collection.size()<<" "
              <<_collection[i].display<<" "
              <<_collection[i].description<<std::endl;
   }
